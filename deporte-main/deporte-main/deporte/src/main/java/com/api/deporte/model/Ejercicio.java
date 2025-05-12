@@ -9,8 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 @Data
-@Document(collection = "Ejercicios")
-public class Ejercicio {
+    public class Ejercicio {
 
     @Id
     private String id;
