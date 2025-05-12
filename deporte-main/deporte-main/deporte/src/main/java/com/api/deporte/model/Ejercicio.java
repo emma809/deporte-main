@@ -9,7 +9,9 @@ import java.util.List;
 import java.util.Map;
 
 @Data
-    public class Ejercicio {
+
+    @Document(collection = "ejercicios")
+public class Ejercicio {
 
     @Id
     private String id;
